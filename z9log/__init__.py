@@ -1,0 +1,1 @@
+# A 'zolog' csomag/package inicializálása.
