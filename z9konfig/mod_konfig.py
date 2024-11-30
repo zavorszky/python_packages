@@ -3,12 +3,19 @@ mod_konfig.py
 Konfiguráció file (adatbázis/registry) kezelő modul.
 """
 
+__version__ = "2.0"
+
+__all__ = [
+    "KonfigHiba_a_konfig_file_nem_letezik",
+    "KonfigHiba_a_konfig_file_olvasasa_sikertelen",
+    "KonfigHiba_a_konfig_ft_hibas",
+    "KonfigRegDBKezelo",
+]
+
+__author__ = "zavorszky@yahoo.com"
+
 import os
 import configparser
-
-
-def mod_verzio() -> str:
-    return "1.0"
 
 
 # A mod_konfig modul hiba osztályai
@@ -39,7 +46,7 @@ class KonfigHiba_a_konfig_ft_hibas(ValueError):
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-class KonfigRegisztriKezelo:
+class KonfigRegDBKezelo:
     # ffn : Konfiguráció Full File Name
     # ft: Konfiguráció File Type
     # cp: Config Parser

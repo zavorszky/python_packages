@@ -1,7 +1,7 @@
 # Package z9log
 
 A Python csomag eléréséhez fel kell venni a Windows system variables közé a \
-**PYTHONPATH** rendszer változót és hozzá kell rendelni a csoma könyvtárát.
+**PYTHONPATH** rendszer változót és hozzá kell rendelni a csomag könyvtárát.
 
 A Python csomagokról infó:\
 [PrepBytes Blog &raquo; Understand Python Packages in Details](https://www.prepbytes.com/blog/python/python-packages/) \
